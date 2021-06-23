@@ -8,7 +8,7 @@ Delete your table!
 
 CREATE DATABASE ultimate_mysql_bootcamp;
 
-USE ultimate_mysql_bootcamp;
+\c ultimate_mysql_bootcamp;
 
 CREATE TABLE pastries(
 	name VARCHAR(50) PRIMARY KEY NOT NULL,
@@ -16,10 +16,10 @@ CREATE TABLE pastries(
 );
 
 
-SHOW tables;
+\dt tables;
 
-DESC pastries;
+\d+ pastries;
 
 DROP TABLE pastries;
 
-SHOW tables;
+\dt tables;
